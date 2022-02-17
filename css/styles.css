@@ -1,0 +1,109 @@
+body {
+    background-color: #fafafa;
+    text-align: center;
+}
+#content {
+    margin: 30px 585px;
+}
+
+#logo {
+    height:4.5em;
+    width: 12em;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.main-section {
+    background-color: white;
+    border: 1px solid rgb(206, 202, 202);
+    height: 390px;
+    align-items: center;
+}
+
+.main-section, form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    font-size: 10pt;
+    width: 250px;
+    height: 35px;
+    margin: 3px;
+    background-color: #fafafa;
+    border: 1px solid rgb(206, 202, 202);
+    border-radius: 1px;
+    padding-left: 5px;
+}
+
+#submit {
+    background-color:  #0095f6;
+    opacity: 0.3;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid rgb(206, 202, 202);
+    width:auto;
+    height: 30px;
+}
+
+#fb-logo {
+    height:1em;
+    width: 1em;
+    justify-content: center;
+}
+
+#fb {
+    display: flex;
+    padding-top: 5px;
+}
+
+#fb p {
+    padding-left: 10px;
+    font-weight: bold;
+    color: rgb(26, 26, 107);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#main-section a {
+    color: rgb(26, 26, 107);
+    text-decoration: none;
+}
+
+#no-account {
+    height: 50px;
+    display: flex;
+}
+
+#no-account a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#0095f6;
+}
+
+#app-links {
+    display: flex;
+    justify-content: center;
+}
+#app-links img{
+    width: 140px;
+    margin-right: 8px;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    padding-right: 0px;
+}
+
+footer ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+}
+footer ul li, footer > p {
+    padding: 5px;
+    font-size: 13px;
+    color: gray;
+}
